@@ -17,8 +17,14 @@ function greet(time){
     } else {
         return 'Good Evening';
     }
-    }
+}
 
+
+
+function displayMessage(time){
+
+    let content = document.getElementById("greeting").innerText = time
+}
 
 /* End Given Code, don't edit above here...*/
 
